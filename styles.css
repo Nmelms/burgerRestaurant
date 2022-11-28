@@ -1,4 +1,29 @@
 .homeBody {
+  height: 200vh;
   background-image: url("./assets/burgerBG.webp");
-  background-position-x: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.homeSection {
+  background-image: url("./assets/burgerBG.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  align-self: center;
+  margin: 1rem;
+  width: 100vw;
+  height: 98vh;
+}
+.homeDiv {
+  position: absolute;
+  top: 35%;
+  max-width: 400px;
+  margin: 1rem;
+  align-self: center;
+}
+.heroImg {
+  z-index: -1;
 }

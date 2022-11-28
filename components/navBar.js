@@ -1,5 +1,5 @@
 const template = `
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav style="position: fixed; z-index: 5" class="vw-100 navbar navbar-expand-lg navbar-light bg-light">
   <div style="max-width: 1200px" class="container">
     <a class="navbar-brand d-flex" href="/">
       <img style="height: 40px; width: 40px"src="./assets/burgerIcon.png" >
