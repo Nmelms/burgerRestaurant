@@ -16,6 +16,7 @@
   margin: 0, 0, 1rem, 0;
   width: 100vw;
   height: 95vh;
+  min-height: 100vh;
 }
 .homeDiv {
   position: absolute;
@@ -29,7 +30,7 @@
 }
 .storySection {
   min-height: 100vh;
-  height: fit-content;
+  min-height: fit-content;
   background-color: white;
 }
 .storySection p {
@@ -42,5 +43,4 @@
   margin: 0 auto;
   border-radius: 50px;
   width: 100%;
-  max-width: 700px;
 }
