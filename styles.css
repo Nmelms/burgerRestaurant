@@ -44,3 +44,16 @@
   border-radius: 50px;
   width: 100%;
 }
+.contactSection {
+  min-height: 500px;
+}
+.contactWrapper {
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  max-width: 700px;
+  height: 100%;
+}
