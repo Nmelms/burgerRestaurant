@@ -1,3 +1,13 @@
+/* h2 {
+  color: #3b3663;
+}
+h6 {
+  color: #696687;
+}
+p {
+  color: #696687;
+} */
+
 .homeBody {
   height: 200vh;
   background-image: url("./assets/burgerBG.webp");
@@ -65,4 +75,15 @@
   height: 40vh;
   background-image: url(./assets/burger2.webp);
   background-position: center;
+}
+.process h3 {
+  color: #3b3663;
+  font-weight: bolder;
+}
+.process h2 {
+  color: #3b3663;
+  font-weight: bolder;
+}
+.process h6 {
+  color: #696687;
 }
