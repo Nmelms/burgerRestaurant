@@ -60,3 +60,9 @@
 .footer {
   min-height: 300px;
 }
+
+.aboutHeader {
+  height: 40vh;
+  background-image: url(./assets/burger2.webp);
+  background-position: center;
+}

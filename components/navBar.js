@@ -14,7 +14,7 @@ const template = `
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="/about.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Menu</a>
