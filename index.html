@@ -4,16 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cc97a12271.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/cc97a12271.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
@@ -21,22 +28,46 @@
   <body class="homeBody d-flex flex-column">
     <nav-bar></nav-bar>
 
-    <section class="homeSection d-flex justify-content-center">
-      <div style="width: 1200px; height: 100%">
+    <section
+      class="homeSection d-flex align-items-center justify-content-center"
+    >
+      <div
+        style="
+          width: 1200px;
+          height: 100% d-flex align-items-center justify-content-center;
+        "
+      >
         <div class="homeDiv text-light">
-          <h2>Deight Your best</h2>
-          <h1>Steak Burger</h1>
-          <p>
+          <h2 style="font-weight: 900">Great Tasting Burgers</h2>
+          <h1
+            style="
+              font-weight: 800;
+              font-size: clamp(60px, 10vw, 100px);
+              color: transparent;
+              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-color: #fff;
+            "
+          >
+            Steak Burger
+          </h1>
+          <p
+            style="
+              font-size: clamp(16px, 18px, 18px);
+              font-weight: 600;
+              line-height: 28px;
+              letter-spacing: 0.5px;
+            "
+          >
             We are dedicated to the safety of our guests and employees and have
             updated our safety measures. Lorem ipsum dolor sit amet elit.
             Provident. fugit odit? Fugit ipsam. Sed ac ex. Nam mauris velit, ac
             cursus quis, leo.
           </p>
-          <button class="btn btn-warning px-4 py-2 me-3">
-            <h4 class="mb-0">See Menu</h4>
+          <button class="btn btn-warning">
+            <h4 class="button mb-0 btnText">See Menu</h4>
           </button>
-          <button class="btn btn-outline-warning px-4 py-2">
-            book a table
+          <button class="btn buttonHover btn-outline-warning">
+            <h4 class="mb-0 btnText">Book A Table</h4>
           </button>
         </div>
       </div>
@@ -48,18 +79,20 @@
           <div class="row">
             <div class="col-12 d-flex flex-column flex-lg-row">
               <img
-                style="width: 100%; border-radius: 50px"
+                style="width: 100%; max-width: 570px; border-radius: 50px"
                 class="mb-5 mb-lg-0"
                 src="./assets/placeholder.jpg"
               />
 
-              <div class="d-flex flex-column px-lg-3 justify-content-between">
-                <p>Our Story</p>
-                <h3 style="color: #3b3663">
-                  Burgers you wont find anywhere else with the finest
-                  ingredients
+              <div
+                class="d-flex flex-column px-lg-3 pt-lg-4 justify-content-between"
+              >
+                <p style="font-weight: 600; letter-spacing: 1px">Our Story</p>
+                <h3 style="color: #3b3663; font-size: 36px; font-weight: 600">
+                  Burgers! You Wont Find Anywhere Else With The Finest
+                  <span style="color: #fbaf32">Ingredients!</span>
                 </h3>
-                <p>
+                <p style="font-size: 18px">
                   Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                   ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
                   sit amet consectetur adipisicing elit. Non quae, consequatur
@@ -69,7 +102,7 @@
                   style="max-width: 150px"
                   class="btn btn-warning px-4 py-2 me-3"
                 >
-                  Read More
+                  <p style="color: #212529" class="btnText">Read More</p>
                 </button>
               </div>
             </div>
@@ -85,7 +118,7 @@
                   class="mt-4 pe-3 fa-solid fa-leaf fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Natural Ingridents</h2>
+                  <h2 class="storyItem">Natural Ingridents</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -99,7 +132,7 @@
                   class="mt-4 pe-3 fa-solid fa-shopping-basket fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Fresh vegetables & Meat</h2>
+                  <h2 class="storyItem">Fresh vegetables & Meat</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -113,7 +146,7 @@
                   class="mt-4 pe-3 fa-solid fa-kitchen-set fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Worlds Best Chef</h2>
+                  <h2 class="storyItem">Worlds Best Chef</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -139,7 +172,7 @@
                   class="mt-4 pe-3 fa-solid fa-kitchen-set fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Best quality producs</h2>
+                  <h2 class="storyItem">Best quality producs</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -153,7 +186,7 @@
                   class="mt-4 pe-3 fa-solid fa-kitchen-set fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Fastest door delivery</h2>
+                  <h2 class="storyItem">Fastest door delivery</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -167,7 +200,7 @@
                   class="mt-4 pe-3 fa-solid fa-kitchen-set fa-2xl"
                 ></i>
                 <div class="d-flex flex-column">
-                  <h2>Extra Lean Ground Beef</h2>
+                  <h2 class="storyItem">Extra Lean Ground Beef</h2>
                   <p>
                     Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
                     optio consec adipisicing elit.
@@ -184,12 +217,14 @@
       <div
         class="contactWrapper d-flex justify-content-center align-items-center"
       >
-        <h1 class="mb-5">
-          The Right Ingredients for the Right Food. Eat Healthy, Delicious and
-          Perfect Burgers From Our Hotel
+        <h1 style="font-weight: 600" class="mb-5">
+          The freshest Ingredients for a lowest prices. Call to place an order
         </h1>
-        <h2>Call us to order: +1 123 456 789</h2>
-        <button class="btn btn-warning w-25">Contact Us</button>
+        <h2>
+          Call us to order:
+          <span style="color: #fbaf32; font-weight: 700">1 555 555 5555</span>
+        </h2>
+        <button class="btn btn-warning w-25 btnText">Contact Us</button>
       </div>
     </section>
 
