@@ -1,5 +1,5 @@
 const template = `
- <nav style="position: fixed; z-index: 5" class="vw-100 navbar navbar-expand-lg navbar-dark bg-dark">
+ <nav style="position: fixed; z-index: 5" class="vw-100 navbar navbar-expand-lg navbar-light bg-white">
   <div style="max-width: 1200px" class="container">
     <a class="navbar-brand d-flex" href="/">
       <img style="height: 40px; width: 40px"src="./assets/burgerIcon.png" >
@@ -11,16 +11,16 @@ const template = `
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto me-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active linkText" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
+          <a class="nav-link linkText" href="/about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link linkText" href="#">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" >Contact Us</a>
+          <a class="nav-link linkText" href="#" tabindex="-1" >Contact Us</a>
         </li>
       </ul>
     </div>

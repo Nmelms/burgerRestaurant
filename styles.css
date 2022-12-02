@@ -128,9 +128,18 @@ button h4 {
   letter-spacing: 0.5px;
   line-height: 28px;
 }
+.pText {
+  color: #696687;
+  font-size: clamp(16px, 4vw, 18px);
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
 .footerText {
   color: #aaa;
 }
 .logoText {
   font-size: clamp(30px, 5vw, 35px);
+}
+.linkText {
+  font-weight: 700;
 }
