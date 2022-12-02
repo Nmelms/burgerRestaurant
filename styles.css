@@ -7,7 +7,9 @@ h6 {
 p {
   color: #696687;
 } */
-
+* {
+  box-sizing: border-box;
+}
 :root {
   --main-text-color: #212529;
   --hoverBtnColor: #fbaf32;
