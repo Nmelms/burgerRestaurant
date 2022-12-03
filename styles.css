@@ -9,6 +9,8 @@ p {
 } */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 :root {
   --main-text-color: #212529;
@@ -144,4 +146,31 @@ button h4 {
 }
 .linkText {
   font-weight: 700;
+}
+.menuHeader {
+  height: 40vh;
+  background-image: url(./assets/menuHeaderBg.webp);
+  background-size: cover;
+  background-position: center;
+}
+.menuBtns {
+}
+.menuContent {
+  max-width: 100vw;
+}
+.menuItemName {
+  color: #3b3663;
+  font-size: clamp(24px, 4vw, 26px);
+}
+.menuItemPrice {
+  font-size: clamp(24px, 4vw, 26px);
+  color: #fbaf32;
+}
+.menuItemDescription {
+  font-size: clamp(16px, 4vw, 18px);
+  color: #696687;
+}
+.item-border {
+  border-bottom: 2px dotted gray;
+  max-width: 100%;
 }

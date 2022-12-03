@@ -17,7 +17,7 @@ const template = `
           <a id="aboutLink" class="nav-link linkText" href="/about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link linkText" href="#">Menu</a>
+          <a id="menuLink" class="nav-link linkText" href="/menu.html">Menu</a>
         </li>
         <li class="nav-item">
           <a class="nav-link linkText" href="#" tabindex="-1" >Contact Us</a>
@@ -43,6 +43,9 @@ class Navbar extends HTMLElement {
       link.classList.add("active");
     } else if (split[split.length - 1] === "about.html") {
       const link = document.querySelector("#aboutLink");
+      link.classList.add("active");
+    } else if (split[split.length - 1] === "menu.html") {
+      const link = document.querySelector("#menuLink");
       link.classList.add("active");
     }
   }
