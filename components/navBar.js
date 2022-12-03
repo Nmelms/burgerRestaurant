@@ -11,10 +11,10 @@ const template = `
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto me-0">
         <li class="nav-item">
-          <a class="nav-link active linkText" aria-current="page" href="#">Home</a>
+          <a id="homeLink" class="nav-link  linkText" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link linkText" href="/about.html">About</a>
+          <a id="aboutLink" class="nav-link linkText" href="/about.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link linkText" href="#">Menu</a>
@@ -32,6 +32,19 @@ class Navbar extends HTMLElement {
   constructor() {
     super();
     this.innerHTML = template;
+  }
+  connectedCallback() {
+    const links = window.location.href;
+    const split = links.split("/");
+
+    // sets active nav link
+    if (split[split.length - 1] === "") {
+      const link = document.querySelector("#homeLink");
+      link.classList.add("active");
+    } else if (split[split.length - 1] === "about.html") {
+      const link = document.querySelector("#aboutLink");
+      link.classList.add("active");
+    }
   }
 }
 
