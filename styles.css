@@ -207,3 +207,7 @@ button h4 {
   color: #3b3663;
   font-weight: 600;
 }
+.pageHeadingText {
+  font-size: clamp(70px, 10vw, 100px);
+  text-align: center;
+}
