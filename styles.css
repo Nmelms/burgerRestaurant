@@ -174,3 +174,36 @@ button h4 {
   border-bottom: 2px dotted gray;
   max-width: 100%;
 }
+.contactHeader {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/menuHeaderBg.webp);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+.submitBtn {
+  margin-right: 0;
+  margin-left: auto;
+  max-width: 120px;
+}
+.contactForm {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.formInput {
+  background-color: #f4f4f4;
+  color: #696687;
+  font-weight: 600;
+  border: none;
+}
+.contactSide p {
+  font-size: 20px;
+  color: #696687;
+}
+.contactSide h2 {
+  color: #3b3663;
+  font-weight: 600;
+}
