@@ -1,6 +1,6 @@
 const footerTemplate = `
   <div class="p-5 footer bg-dark container-fluid text-light d-flex justify-content-center">
-    <div style="max-width: 1200px" class="row ">
+    <div class="row div-container">
       <div class="col-12 col-md-6">
         <h2 class="m-3">
           <img src="./assets/burgerIcon.png" >

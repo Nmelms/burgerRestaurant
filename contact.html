@@ -25,10 +25,7 @@
       <h1 class="pageHeadingText">Contact Us</h1>
     </header>
 
-    <section
-      style="max-width: 1200px"
-      class="contact container-fluid d-flex p-4"
-    >
+    <section class="contact container-fluid d-flex p-4 div-container">
       <div class="row d-flex justify-content-center">
         <div class="col-12 col-xl-8">
           <form
@@ -51,15 +48,17 @@
                 class="form-control p-3 my-3 formInput"
                 placeholder="Name*"
                 aria-label="name"
+                required
               />
             </div>
             <div class="col-12 col-sm-6">
               <input
                 name="email"
                 type="email"
-                class="col-12 col-sm-6form-control p-3 my-3 formInput"
+                class="col-12 col-sm-6 form-control p-3 my-3 formInput"
                 placeholder="Email*"
                 aria-label="email"
+                required
               />
             </div>
             <div class="col-12 col-sm-6">
@@ -69,6 +68,7 @@
                 class="form-control p-3 my-3 formInput"
                 placeholder="Phone Number*"
                 aria-label="phone number"
+                required
               />
             </div>
             <div class="col-12 col-sm-6">
@@ -83,10 +83,9 @@
             <div class="col-12">
               <textarea
                 name="message"
-                class="form-control p-3 my-3 formInput"
+                class="form-control p-3 my-3 formInput text-area"
                 rows="3"
                 placeholder="Message"
-                style="min-width: 100%; resize: none"
               ></textarea>
             </div>
             <div class="d-flex justify-content-end">

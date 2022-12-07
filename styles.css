@@ -16,6 +16,18 @@ h3 {
   font-size: 36px;
   font-weight: 600;
 }
+.nav-bar {
+  position: fixed;
+  z-index: 5;
+}
+.navbar-toggler {
+  max-width: 56px;
+  max-height: 50px;
+}
+.nav-logo {
+  height: 40px;
+  width: 40px;
+}
 .heroTitle {
   font-weight: 800;
   font-size: clamp(60px, 15vw, 100px);
@@ -149,11 +161,14 @@ button h4 {
 .footer {
   min-height: 300px;
 }
-
 .aboutHeader {
   height: 40vh;
   background-image: url(./assets/burger2.webp);
   background-position: center;
+}
+.text-area {
+  min-width: 100%;
+  resize: none;
 }
 .process h3 {
   color: #3b3663;

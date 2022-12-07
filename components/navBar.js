@@ -1,11 +1,11 @@
 const template = `
- <nav style="position: fixed; z-index: 5" class="vw-100 navbar navbar-expand-lg navbar-light bg-white">
-  <div style="max-width: 1200px" class="container">
+ <nav class="vw-100 navbar navbar-expand-lg navbar-light bg-white nav-bar">
+  <div class="container div-container">
     <a class="navbar-brand d-flex" href="/">
-      <img style="height: 40px; width: 40px"src="./assets/burgerIcon.png" >
+      <img class="nav-logo" src="./assets/burgerIcon.png" >
       <h2 class="m-0 logoText">Burger Bun</h2>
     </a>
-    <button style="max-width: 56px; max-height: 50px" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
