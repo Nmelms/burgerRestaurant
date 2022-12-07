@@ -50,7 +50,7 @@ burgerBtn.addEventListener("click", () => {
         </div>
         <div class="row">
           <p class=" menuItemDescription">
-            two thin stacked patties, thick-cut bacon, kimchi, and a spicy
+            Two thin stacked patties, thick-cut bacon, kimchi, and a spicy
             homemade sauce.
           </p>
         </div>
@@ -108,7 +108,7 @@ fryBtn.addEventListener("click", () => {
             </div>
             <div class="row">
               <p class="menuItemDescription">
-                Lettuce, Tomato, Onion, and Pickles, add Cheese +$1
+                Classic fried potatoes
               </p>
             </div>
           </div>
@@ -116,30 +116,61 @@ fryBtn.addEventListener("click", () => {
           <div class="row menu-item container-fluid w-100 my-3">
             <div class="row item-border">
               <div class="col-8">
-                <h6 class="menuItemName">garlic fries</h6>
+                <h6 class="menuItemName">Loaded Fries</h6>
               </div>
               <div class="col-4 d-flex justify-content-end">
-                <h6 class="menuItemPrice">$9.00</h6>
+                <h6 class="menuItemPrice">$6.00</h6>
               </div>
             </div>
             <div class="row">
-              <p class="menuItemDescription">Our Classic Burger in mini form</p>
+              <p class="menuItemDescription">Fries topped with cheese and bacon.</p>
             </div>
           </div>
 
           <div class="row menu-item container-fluid w-100 my-3">
             <div class="row item-border">
               <div class="col-8">
-                <h6 class="menuItemName">ranch fries</h6>
+                <h6 class="menuItemName">Chicken Bacon Ranch Fries</h6>
               </div>
               <div class="col-4 d-flex justify-content-end">
-                <h6 class="menuItemPrice">$18.00</h6>
+                <h6 class="menuItemPrice">$9.00</h6>
               </div>
             </div>
             <div class="row">
               <p class="menuItemDescription">
-                two thin stacked patties, thick-cut bacon, kimchi, and a spicy
-                homemade sauce.
+                Fries topped with grilled chicken, bacon, scallions, and drizzled with ranch.
+              </p>
+            </div>
+          </div>
+
+          <div class="row menu-item container-fluid w-100 my-3">
+            <div class="row item-border">
+              <div class="col-8">
+                <h6 class="menuItemName">Buffalo Chicken Fries</h6>
+              </div>
+              <div class="col-4 d-flex justify-content-end">
+                <h6 class="menuItemPrice">$9.00</h6>
+              </div>
+            </div>
+            <div class="row">
+              <p class="menuItemDescription">
+                Fries topped with grilled chicken, celery, and drizzled with our homemade buffalo sauce.
+              </p>
+            </div>
+          </div>
+
+          <div class="row menu-item container-fluid w-100 my-3">
+            <div class="row item-border">
+              <div class="col-8">
+                <h6 class="menuItemName">Pizza Fries</h6>
+              </div>
+              <div class="col-4 d-flex justify-content-end">
+                <h6 class="menuItemPrice">$12.00</h6>
+              </div>
+            </div>
+            <div class="row">
+              <p class="menuItemDescription">
+                Fries topped with maranara, mozzarella, pepperoni, and then baked in the oven.
               </p>
             </div>
           </div>
