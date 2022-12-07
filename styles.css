@@ -23,11 +23,17 @@ h3 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #fff;
 }
-.text {
+.hero-text {
   font-size: clamp(16px, 10vw, 18px);
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0.5px;
+}
+.pText {
+  color: #696687;
+  font-size: clamp(16px, 4vw, 18px);
+  letter-spacing: 0.5px;
+  line-height: 28px;
 }
 .text-18 {
   font-size: 18px;
@@ -40,6 +46,9 @@ h3 {
   max-width: 570px;
   border-radius: 50px;
   margin: 0 auto;
+}
+.offwhite-bg {
+  background-color: #f4f4f4;
 }
 
 .button {
@@ -88,6 +97,14 @@ button {
 }
 button h4 {
   font-size: 50px;
+}
+.div-container {
+  max-width: 1200px;
+}
+.small-heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #696689;
 }
 .homeDiv {
   /* position: absolute;
@@ -153,18 +170,18 @@ button h4 {
   font-weight: 700;
   color: #3b3663;
 }
+.staff-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
 .storyItem + p {
   color: #696687;
   font-size: clamp(16px, 4vw, 18px);
   letter-spacing: 0.5px;
   line-height: 28px;
 }
-.pText {
-  color: #696687;
-  font-size: clamp(16px, 4vw, 18px);
-  letter-spacing: 0.5px;
-  line-height: 28px;
-}
+
 .footerText {
   color: #aaa;
 }
