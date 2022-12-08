@@ -7,10 +7,10 @@ const footerTemplate = `
           Burger Bun
         </h2>
         <h5 class="m-3 footerText">
-          We are dedicated to the safety of our guests and employees 
-          and have updated our safety measures. We believe in Simple, 
-          Creative, Modern and Flexible Design Standards with a Retina 
-          and Responsive Approach. Browse the amazing Features this template offers.
+          We are dedicated to the safety of our guests and staff. Dolor et sed amet eget volutp elit libero. timpus sed elit nibh
+              quis dui, nunc tortor sit amet. Dolor et sed amet eget volutp elit libero. timpus sed elit nibh
+              quis dui, nunc tortor sit amet. Dolor et sed amet eget volutp elit libero. timpus sed elit nibh
+              quis dui, nunc tortor sit amet.
         </h5>
         <h5 class="m-3 footerText">
           Follow Us: 
