@@ -91,7 +91,7 @@ h3 {
   height: 95vh;
   min-height: 100vh;
 }
-button {
+.button {
   width: 150px;
   height: 54px;
 }
@@ -260,6 +260,7 @@ button h4 {
   font-size: 20px;
   color: #696687;
 }
+
 .contactSide h2 {
   color: #3b3663;
   font-weight: 600;
